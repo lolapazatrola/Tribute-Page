@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(249, 243, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#image {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
