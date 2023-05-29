@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(249, 243, 243);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(222, 215, 215);
+    font-family: Century Gothic, sans-serif;
 }
 
 #title {
@@ -8,15 +8,47 @@ body {
 }
 
 #img-div {
-    text-align: center;
     background-color: white;
     padding-bottom: 0.5rem;
-    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 #image {
+    max-width: 95%;
+    max-height: 100%;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#tribute-info {
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
-    max-width: 100%;
-    height: auto;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#tribute-info h1 {
+    text-align: center;
+}
+
+#tribute-info address {
+    padding-top: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
 }
